@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@6.x/css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/vuetify@3.x/dist/vuetify.min.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>emojis.tomacheese.com</title>
+  </head>
+  <body>
+    <main id="app">
+      <v-app>
+        <v-container>
+          <v-row>
+            <v-col v-for="server in servers" :key="server.name" cols="12" sm="6" md="4" lg="3">
+              <a :href="server.inviteUrl" target="_blank" v-if="!server.disabled">
+                <v-img :src="server.image"></v-img>
+              </a>
+              <v-img :src="server.image" v-else style="opacity: 0.5;"></v-img>
+            </v-col>
+          </v-row>
+        </v-container>
+      </v-app>
+    </main>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vuetify@3.x/dist/vuetify.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+      const { createApp } = Vue
+      const { createVuetify } = Vuetify
+
+      const vuetify = createVuetify()
+
+      const app = createApp({
+        setup() {
+          const servers = Vue.ref([]);
+
+          Vue.onMounted(() => {
+            axios
+              .get('/servers.json')
+              .then((response) => (servers.value = response.data));
+          });
+          return {
+            servers
+          }
+        }
+      })
+      app.use(vuetify).mount('#app')
+    </script>
+  </body>
+</html>

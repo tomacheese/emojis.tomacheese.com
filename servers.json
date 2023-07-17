@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Tomachi Emojis 1",
+    "inviteUrl": "https://discord.gg/TQDfR5T",
+    "image": "/images/1.png",
+    "disabled": false
+  },
+  {
+    "name": "Tomachi Emojis 2",
+    "inviteUrl": "https://discord.gg/EdVKR2hjyS",
+    "image": "/images/2.png",
+    "disabled": false
+  },
+  {
+    "name": "Tomachi Emojis 3",
+    "inviteUrl": "https://discord.gg/Vr8NrbvSVU",
+    "image": "/images/3.png",
+    "disabled": false
+  },
+  {
+    "name": "Tomachi Emojis 4",
+    "inviteUrl": "https://discord.gg/TMdNEeJe7K",
+    "image": "/images/4.png",
+    "disabled": false
+  },
+  {
+    "name": "Tomachi Emojis 5",
+    "inviteUrl": "https://discord.gg/TAQWn6zcGe",
+    "image": "/images/5.png",
+    "disabled": false
+  },
+  {
+    "name": "Tomachi Emojis 6",
+    "inviteUrl": "https://discord.gg/jrdxPvNyPs",
+    "image": "/images/6.png",
+    "disabled": false
+  },
+  {
+    "name": "Tomachi Emojis 7",
+    "inviteUrl": "https://discord.gg/mTjcwXdA7d",
+    "image": "/images/7.png",
+    "disabled": false
+  },
+  {
+    "name": "Tomachi Emojis 8",
+    "inviteUrl": "https://discord.gg/",
+    "image": "/images/8.png",
+    "disabled": true
+  },
+  {
+    "name": "Tomachi Emojis 9",
+    "inviteUrl": "https://discord.gg/",
+    "image": "/images/9.png",
+    "disabled": true
+  },
+  {
+    "name": "Tomachi Emojis 10",
+    "inviteUrl": "https://discord.gg/",
+    "image": "/images/10.png",
+    "disabled": true
+  }
+]
