@@ -23,15 +23,17 @@ Tomachi Emojis Discord サーバーへの招待リンクを一覧表示するウ
 
 ## サーバー情報の編集
 
-`servers.json` を編集してサーバー情報を更新できます。
+`servers.json` を編集してサーバー情報を更新できます。各配列要素が 1 件の Discord サーバーを表します。
 
 ```json
-{
-  "name": "サーバー名",
-  "inviteUrl": "Discord 招待 URL",
-  "image": "/images/番号.png",
-  "disabled": false
-}
+[
+  {
+    "name": "サーバー名",
+    "inviteUrl": "Discord 招待 URL",
+    "image": "/images/番号.png",
+    "disabled": false
+  }
+]
 ```
 
 `disabled` を `true` にすると、招待リンクが無効化されます（画像は半透明で表示）。
