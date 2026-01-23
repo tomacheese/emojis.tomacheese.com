@@ -90,3 +90,4 @@
 6. PR 本文の崩れがないことを確認する。
 
 ## リポジトリ固有
+- 目的: [emojis.tomacheese.com](https://emojis.tomacheese.com) のソースコードです。

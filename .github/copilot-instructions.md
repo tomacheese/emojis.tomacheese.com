@@ -36,3 +36,4 @@
 ## ドキュメント更新
 
 ## リポジトリ固有
+- 目的: [emojis.tomacheese.com](https://emojis.tomacheese.com) のソースコードです。

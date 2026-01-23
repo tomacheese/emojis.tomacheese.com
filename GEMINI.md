@@ -33,3 +33,4 @@
 - 既存のプロジェクトルールがある場合はそれを優先する。
 
 ## リポジトリ固有
+- 目的: [emojis.tomacheese.com](https://emojis.tomacheese.com) のソースコードです。
