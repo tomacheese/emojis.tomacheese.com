@@ -36,4 +36,5 @@
 ## ドキュメント更新
 
 ## リポジトリ固有
-- 目的: [emojis.tomacheese.com](https://emojis.tomacheese.com) のソースコードです。
+- 公開 URL: https://emojis.tomacheese.com
+- 詳細は `README` と `package.json` を参照
