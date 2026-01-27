@@ -16,14 +16,14 @@
 
 ## 重要ルール
 - **会話言語**: 日本語
-- **コミット規約**: [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) (`<type>(<scope>): <description>` - descriptionは日本語)
+- **コミット規約**: [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) (`<type>(<scope>): <description>` - description は日本語)
 - **コメント言語**: 日本語
 - **エラーメッセージ**: 英語
 - **スペース**: 日本語と英数字の間に半角スペースを挿入
 
 ## 環境のルール
 - **ブランチ命名**: [Conventional Branch](https://conventional-branch.github.io) (`feat/`, `fix/` 等)
-- **Git Worktree**: 使用する場合、`.bare/<branch>` 構成に従う (必須ではない)
+- **Git Worktree**: 使用する場合は、標準的な Git Worktree の運用方法に従って設定する (必須ではない)
 
 ## コード改修時のルール
 - エラーメッセージの先頭に絵文字がある場合、全体で統一する
@@ -48,7 +48,7 @@ python -m http.server 8080
 - `images/`: 画像リソース
 
 ## 実装パターン
-- Vue 3 Composition API (CDN版での記述) を使用
+- Vue 3 Composition API (CDN 版での記述) を使用
 - Vuetify コンポーネントを活用して UI を構築
 
 ## テスト

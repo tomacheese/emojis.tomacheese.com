@@ -7,7 +7,7 @@
 - **会話言語**: 日本語
 - **コメント**: 日本語
 - **エラーメッセージ**: 英語
-- **コミットメッセージ**: [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) (descriptionは日本語)
+- **コミットメッセージ**: [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) (description は日本語)
 
 ## 判断記録のルール
 - 重要な技術的判断を行った場合は、その理由と代替案について記録を残すこと。

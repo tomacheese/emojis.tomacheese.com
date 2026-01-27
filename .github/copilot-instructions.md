@@ -7,7 +7,7 @@
 
 ## 共通ルール
 - 会話は日本語で行う。
-- PR とコミットは Conventional Commits に従う。
+- PR タイトルとコミットメッセージは Conventional Commits に従う。
 - 日本語と英数字の間には半角スペースを入れる。
 
 ## 技術スタック
