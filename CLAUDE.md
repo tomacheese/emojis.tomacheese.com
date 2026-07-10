@@ -28,7 +28,8 @@
 ## コード改修時のルール
 - エラーメッセージの先頭に絵文字がある場合、全体で統一する
 - `index.html` 内の Vue/Vuetify ロジックはわかりやすく記述する
-- `servers.json` の JSON 構文エラーに注意する
+- `servers.json` の JSON 構文・データ構造 (各要素の `name` / `inviteUrl` / `image` / `disabled`) を壊さない
+- ライブラリは CDN 経由での読み込みを維持する (npm 等のパッケージ管理の導入は行わない)
 
 ## 相談ルール
 - 実装レビュー、局所設計は Codex CLI に相談可能
@@ -50,6 +51,11 @@ python -m http.server 8080
 ## 実装パターン
 - Vue 3 Composition API (CDN 版での記述) を使用
 - Vuetify コンポーネントを活用して UI を構築
+
+## セキュリティ / 機密情報
+- API キー・パスワードなどの機密情報をコードや `servers.json` に含めない
+- Discord 招待 URL 以外の秘匿すべき情報をコミットしない
+- ログ出力に機密情報を含めない
 
 ## テスト
 - 自動テスト環境なし。ブラウザでの目視確認を行う。
