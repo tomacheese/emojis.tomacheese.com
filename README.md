@@ -11,13 +11,16 @@ Tomachi Emojis Discord サーバーへの招待リンクを一覧表示するウ
 - HTML
 - [Vue.js 3](https://vuejs.org/)
 - [Vuetify 3](https://vuetifyjs.com/)
+- [axios](https://axios-http.com/) (`servers.json` の取得)
+
+いずれも CDN から読み込むため、ビルド手順はありません。
 
 ## ファイル構成
 
 | ファイル | 説明 |
 |---------|------|
 | `index.html` | メインページ |
-| `servers.json` | Discord サーバー情報（名前、招待 URL、画像） |
+| `servers.json` | Discord サーバー情報（名前、招待 URL、画像、無効フラグ） |
 | `images/` | サーバーアイコン画像 |
 | `CNAME` | GitHub Pages カスタムドメイン設定 |
 
